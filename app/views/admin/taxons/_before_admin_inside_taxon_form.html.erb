@@ -1,0 +1,5 @@
+<%= f.field_container :inactive do %>
+  <%= f.label :inactive, t("inactive") %><br />
+  <%= error_message_on :taxon, :inactive, :class => 'fullwidth title'  %>
+  <%= text_field :taxon, :inactive  %>
+<% end %>
